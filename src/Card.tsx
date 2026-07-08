@@ -7,7 +7,7 @@ export default function Card() {
     return(
         <section className={styles.card}>
             <ResultRecap data={data}/>
-            <ResultSummary/>
+            <ResultSummary data={data}/>
         </section>
     );
 }
