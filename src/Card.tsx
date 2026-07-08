@@ -6,7 +6,7 @@ import data from "./assets/data.json";
 export default function Card() {
     return(
         <section className={styles.card}>
-            <ResultRecap/>
+            <ResultRecap data={data}/>
             <ResultSummary/>
         </section>
     );
