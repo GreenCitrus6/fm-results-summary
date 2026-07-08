@@ -3,7 +3,7 @@
     width: 300px;
 }
 
-h2 {
+.resultHeader {
     color: hsl(241, 100%, 89%);
 }
 
