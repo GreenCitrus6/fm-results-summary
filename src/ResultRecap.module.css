@@ -1,0 +1,16 @@
+.card {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+}
+
+h2 {
+    color: hsl(241, 100%, 89%);
+}
+
+span, p {
+    color: hsl(241, 100%, 89%);
+}
+
+.rating {
+    color: hsl(0, 0%, 100%);
+}
