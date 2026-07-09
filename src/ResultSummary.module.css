@@ -1,5 +1,12 @@
 .card {
+    --overlap: 5rem;
+    --padding: 1rem;
     background-color: var(--white);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-left: calc(var(--overlap) * -1);
+    padding: var(--padding);
+    padding-left: calc(var(--overlap) + var(--padding));
 }
 
 h2 {
