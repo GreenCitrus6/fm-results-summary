@@ -1,5 +1,5 @@
 .card {
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -7,13 +7,13 @@
 }
 
 .resultHeader {
-    color: hsl(241, 100%, 89%);
+    color: var(--light-lavender);
 }
 
 span, p {
-    color: hsl(241, 100%, 89%);
+    color: var(--light-lavender);
 }
 
 .rating {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
 }

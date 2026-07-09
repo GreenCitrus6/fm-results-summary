@@ -31,7 +31,6 @@ export default function ResultRecap({ data }: ComponentProps) {
     return(
         <section className={styles.card}>
             <h2 className={styles.resultHeader}>Your Result</h2>
-            {/* <span>{avgScore}/100</span> */}
             <ScoreMeter score={avgScore} />
             <p className={styles.rating}>Great</p>
             <p>You scored higher than {percentile}% of the people who have taken these tests</p>

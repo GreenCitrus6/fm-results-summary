@@ -1,5 +1,5 @@
 .card {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 h2 {
