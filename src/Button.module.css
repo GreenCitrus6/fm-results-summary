@@ -8,3 +8,8 @@
     font-weight: 600;
     font-size: 1rem;
 }
+
+.bttn:hover {
+    cursor: pointer;
+    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
