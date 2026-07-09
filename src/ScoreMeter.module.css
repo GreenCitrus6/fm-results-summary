@@ -1,6 +1,6 @@
 .meterCircle {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     background: linear-gradient(var(--violet-blue), var(--persian-blue));
     border-radius: 50%;
     display: flex;
@@ -13,9 +13,9 @@
 .scoreNumber {
     font-family: var(--heading);
     font-weight: 800;
-    font-size: 5rem;
+    font-size: 4.5rem;
     color: var(--white);
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .maxScore {
