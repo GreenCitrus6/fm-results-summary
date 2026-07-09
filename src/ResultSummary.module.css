@@ -1,12 +1,18 @@
 .card {
     --overlap: 5rem;
-    --padding: 1rem;
+    --padding: 2rem;
     background-color: var(--white);
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
     margin-left: calc(var(--overlap) * -1);
     padding: var(--padding);
     padding-left: calc(var(--overlap) + var(--padding));
+    padding-top: 1rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 h2 {
@@ -16,4 +22,5 @@ h2 {
 .scoreCellContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }

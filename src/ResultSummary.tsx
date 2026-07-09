@@ -1,5 +1,6 @@
 import styles from './ResultSummary.module.css';
 import ScoreCell from './ScoreCell';
+import Button from './Button';
 import type { ScoreData } from './types';
 
 interface ComponentProps {
@@ -16,7 +17,7 @@ export default function ResultSummary({ data }: ComponentProps) {
                     <ScoreCell data={item}/>
                 ))}
             </div>
-            <button>Continue</button>
+            <Button text={"Continue"} />
         </section>
     );
 }
