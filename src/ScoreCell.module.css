@@ -1,0 +1,60 @@
+.cell {
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.75rem;
+}
+
+.icon {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+span {
+    color: hsla(224, 30%, 27%, 0.5);
+}
+
+.scoreNumber {
+    color: var(--text);
+    font-weight: 700;
+}
+
+.Reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.ReactionText{
+    color: var(--light-red);
+}
+
+.Memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.MemoryText {
+    color: var(--orange-yellow);
+}
+
+.Verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.VerbalText {
+    color: var(--green-teal);
+}
+
+.Visual {
+    background-color: hsla(234, 85%, 45%, 0.075);
+}
+
+.VisualText {
+    color: var(--cobalt-blue);
+}
+
+.categoryContainer {
+    display: flex;
+}
