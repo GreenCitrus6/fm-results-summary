@@ -20,4 +20,6 @@ span, p {
 
 .rating {
     color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
 }
