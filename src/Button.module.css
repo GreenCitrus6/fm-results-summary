@@ -1,15 +1,22 @@
+:root {
+    --gradient-1: var(--text);
+    --gradient-2: var(--text);
+}
+
 .bttn {
     width: 100%;
     height: 2.75rem;
     border-radius: 2rem;
-    background-color: var(--text);
+    background: linear-gradient(var(--gradient-1), var(--gradient-2));
     border: 0;
     color: var(--white);
     font-weight: 600;
     font-size: 1rem;
+    transition: --gradient-1 0.4s ease-in, --gradient-2 0.4s ease-in;
 }
 
 .bttn:hover {
     cursor: pointer;
-    background: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+    --gradient-1: var(--light-slate-blue);
+    --gradient-2: var(--light-royal-blue);
 }
