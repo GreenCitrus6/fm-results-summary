@@ -29,3 +29,21 @@ h2 {
 .summaryHeader {
     align-self: flex-start;
 }
+
+@media (max-width: 575px) {
+    .card {
+        --overlap: 5rem;
+        --padding: 2rem;
+        width: calc(100% - (2 * var(--padding)));
+        padding: var(--padding);
+        padding-top: calc(var(--overlap) + 0.5rem);
+        margin: 0;
+        margin-top: calc(var(--overlap) * -1);
+        border-radius: 0;
+        flex: 1;
+    }
+
+    .scoreCellContainer {
+        margin-bottom: 1.5rem;
+    }
+}
