@@ -11,8 +11,8 @@ export default function ResultSummary({ data }: ComponentProps) {
 
     return(
         <section className={styles.card}>
-            <h2>Summary</h2>
             <div className={styles.scoreCellContainer}>
+                <h2 className={styles.summaryHeader}>Summary</h2>
                 {data.map((item) => (
                     <ScoreCell data={item}/>
                 ))}

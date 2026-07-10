@@ -2,12 +2,12 @@
     --overlap: 5rem;
     --padding: 2rem;
     background-color: var(--white);
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     margin-left: calc(var(--overlap) * -1);
     padding: var(--padding);
     padding-left: calc(var(--overlap) + var(--padding));
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     width: 15rem;
     display: flex;
     flex-direction: column;
@@ -17,10 +17,15 @@
 
 h2 {
     color: var(--text);
+    font-size: 1.25rem;
 }
 
 .scoreCellContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.summaryHeader {
+    align-self: flex-start;
 }
